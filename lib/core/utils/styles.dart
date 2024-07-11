@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:route_task/costants.dart';
+import 'package:route_task/core/utils/app_colors.dart';
 
 abstract class Styles {
   static TextStyle textStyle20BoldPoppings = GoogleFonts.poppins(
@@ -17,7 +17,7 @@ abstract class Styles {
   static TextStyle textStyle18Black = GoogleFonts.almarai(
     fontSize: 18,
     fontWeight: FontWeight.normal,
-    color: kBlackColor,
+    color: AppColors.black,
   );
   static TextStyle textStyle18White = GoogleFonts.almarai(
     fontSize: 18,
@@ -32,7 +32,7 @@ abstract class Styles {
   static TextStyle textStyle32Blue = GoogleFonts.almarai(
     fontSize: 32,
     fontWeight: FontWeight.bold,
-    color: kPrimaryKey,
+    color: AppColors.primaryColor,
   );
   // static TextStyle? textStyle32Black;
   // void initializeTextStyle32Black() {
@@ -50,22 +50,22 @@ abstract class Styles {
       fontSize: 12, fontWeight: FontWeight.bold, color: Colors.grey);
 
   static TextStyle textStyle12Blue = GoogleFonts.almarai(
-      fontSize: 12, fontWeight: FontWeight.bold, color: kBlackColor);
+      fontSize: 12, fontWeight: FontWeight.bold, color: AppColors.black);
 
   static TextStyle textStyle12WhiteBoldPoppings = GoogleFonts.poppins(
       fontSize: 12, fontWeight: FontWeight.bold, color: Colors.white);
   static TextStyle textStyle12Orange = const TextStyle(
-      fontSize: 12, fontWeight: FontWeight.bold, color: kPrimaryKey);
+      fontSize: 12, fontWeight: FontWeight.bold, color: AppColors.primaryColor);
 
   static TextStyle textStyle24BoldBlack = GoogleFonts.poppins(
     fontSize: 24,
     fontWeight: FontWeight.bold,
-    color: kBlackColor,
+    color: AppColors.black,
   );
   static TextStyle textStyle24Black = GoogleFonts.poppins(
     fontSize: 24,
     fontWeight: FontWeight.w500,
-    color: kBlackColor,
+    color: AppColors.black,
   );
   static TextStyle textStyle24BoldWhite = GoogleFonts.poppins(
     fontSize: 24,
@@ -74,7 +74,7 @@ abstract class Styles {
   );
   static TextStyle textStyle20Black = GoogleFonts.poppins(
     fontSize: 20,
-    color: kBlackColor,
+    color: AppColors.black,
   );
   static TextStyle textStyle20BoldWhite = GoogleFonts.poppins(
     fontSize: 20,
@@ -93,7 +93,7 @@ abstract class Styles {
       fontSize: 14, fontWeight: FontWeight.normal, color: Colors.white);
 
   static TextStyle textStyle14 = GoogleFonts.almarai(
-      fontSize: 14, fontWeight: FontWeight.normal, color: kBlackColor);
+      fontSize: 14, fontWeight: FontWeight.normal, color: AppColors.black);
 
   // const TextStyle(
   //     fontSize: 14, fontWeight: FontWeight.bold, color: kPrimaryKey);
@@ -101,7 +101,7 @@ abstract class Styles {
   static TextStyle textStyle16Black = GoogleFonts.almarai(
     fontSize: 16,
     fontWeight: FontWeight.bold,
-    color: kBlackColor,
+    color: AppColors.black,
   );
   static TextStyle textStyle16White = const TextStyle(
       fontSize: 16, fontWeight: FontWeight.bold, color: Colors.white);
